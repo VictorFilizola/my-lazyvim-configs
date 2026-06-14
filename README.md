@@ -1,8 +1,8 @@
 # My LazyVim Configuration
 
-This repository contains my personal `my-lazyvim-configs` Neovim setup. It is built on top of the LazyVim framework and features a high-contrast Gruvbox Dark Hard aesthetic, transparent terminal background integration, and custom Lualine modes
+This repository contains my personal Neovim setup. It is built on top of the LazyVim framework and features a high-contrast Gruvbox Dark-Hard aesthetic, transparent terminal background integration, and custom Lualine modes
 
-Strict plugin versioning is enforced via `lazy-lock.json` to ensure 100% reproducibility across all machines
+Strict plugin versioning is enforced via lazy-lock.json to ensure 100% reproducibility across all machines
 
 ---
 
@@ -37,7 +37,7 @@ Ensure you have Git and Neovim (v0.9.0 or higher) installed on your system
 ### Arch Linux
 
 ```bash
-# 1. Install prerequisites (Arch Linux example)
+# 1. Install prerequisites
 sudo pacman -S neovim git base-devel wl-clipboard
 
 # 2. Clone this repository directly into the Neovim config path
