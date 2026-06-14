@@ -41,7 +41,7 @@ Ensure you have Git and Neovim (v0.9.0 or higher) installed on your system
 sudo pacman -S neovim git base-devel wl-clipboard
 
 # 2. Clone this repository directly into the Neovim config path
-git clone [https://github.com/VictorFilizola/my-lazyvim-configs.git](https://github.com/VictorFilizola/my-lazyvim-configs.git) ~/.config/nvim
+git clone https://github.com/VictorFilizola/my-lazyvim-configs.git ~/.config/nvim
 
 # 3. Launch Neovim to trigger the Lazy package manager bootstrap
 nvim
