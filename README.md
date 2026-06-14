@@ -54,7 +54,7 @@ nvim
 brew install neovim git
 
 # 2. Clone this repository directly into the Neovim config path
-git clone [https://github.com/VictorFilizola/my-lazyvim-configs.git](https://github.com/VictorFilizola/my-lazyvim-configs.git) ~/.config/nvim
+git clone https://github.com/VictorFilizola/my-lazyvim-configs.git ~/.config/nvim
 
 # 3. Launch Neovim to trigger the Lazy package manager bootstrap
 nvim
@@ -69,7 +69,7 @@ _Note: Run this inside a modern terminal app like Windows Terminal using PowerSh
 winget install Neovim.Neovim Git.Git
 
 # 2. Clone this repository directly into the Windows local app data path
-git clone [https://github.com/VictorFilizola/my-lazyvim-configs.git](https://github.com/VictorFilizola/my-lazyvim-configs.git) $env:LOCALAPPDATA\nvim
+git clone https://github.com/VictorFilizola/my-lazyvim-configs.git $env:LOCALAPPDATA\nvim
 
 # 3. Launch Neovim to trigger the Lazy package manager bootstrap
 nvim
