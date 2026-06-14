@@ -57,8 +57,6 @@ return {
       local block_text = "#181616"
 
       -- Classic Gruvbox Hex Palette for the modes
-      local color_normal = "#cc241d" -- Gruvbox Red
-      local color_insert = "#458588" -- Gruvbox Blue
       local color_visual = "#689d6a" -- Gruvbox Aqua
       local color_command = "#b16286" -- Gruvbox Purple
 
