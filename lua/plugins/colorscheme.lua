@@ -6,14 +6,13 @@ return {
       contrast = "hard", -- Enables the Dark Hard variant
       transparent_mode = true, -- Strips the main editor background
       overrides = {
-        -- Strip the base Neovim statusline background so Lualine's "NONE" actually shows your wallpaper
         StatusLine = { bg = "NONE" },
         StatusLineNC = { bg = "NONE" },
 
-        -- -- Make standard text your custom off-white
+        -- -- Change standard text color
         -- Normal = { fg = "#e8e3df" },
         --
-        -- -- Force Explorer directory and file names to be off-white
+        -- -- Force Explorer color
         -- SnacksExplorerDir = { fg = "#e8e3df" },
         -- SnacksExplorerFile = { fg = "#e8e3df" },
         --
@@ -57,8 +56,10 @@ return {
       local block_text = "#181616"
 
       -- Classic Gruvbox Hex Palette for the modes
-      local color_visual = "#689d6a" -- Gruvbox Aqua
-      local color_command = "#b16286" -- Gruvbox Purple
+      local color_normal = "#cc241d" -- Gruvbox red
+      local color_insert = "#458588" -- Gruvbox blue
+      local color_visual = "#689d6a" -- Gruvbox aqua
+      local color_command = "#b16286" -- Gruvbox purple
 
       custom_lualine.normal.a = { bg = color_normal, fg = block_text, gui = "bold" }
       custom_lualine.normal.b = { bg = transparent_bg, fg = soft_text }
