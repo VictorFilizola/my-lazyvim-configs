@@ -60,6 +60,8 @@ return {
       local color_insert = "#458588" -- Gruvbox blue
       local color_visual = "#689d6a" -- Gruvbox aqua
       local color_command = "#b16286" -- Gruvbox purple
+      local color_terminal = "#a89984" -- Gruvbox gray
+      local color_replace = "#d65d0e" -- Gruvbox orange
 
       custom_lualine.normal.a = { bg = color_normal, fg = block_text, gui = "bold" }
       custom_lualine.normal.b = { bg = transparent_bg, fg = soft_text }
@@ -80,6 +82,16 @@ return {
       custom_lualine.inactive.a = { bg = transparent_bg, fg = soft_text }
       custom_lualine.inactive.b = { bg = transparent_bg, fg = soft_text }
       custom_lualine.inactive.c = { bg = transparent_bg, fg = soft_text }
+
+      custom_lualine.terminal = {}
+      custom_lualine.terminal.a = { bg = color_terminal, fg = block_text, gui = "bold" }
+      custom_lualine.terminal.b = { bg = transparent_bg, fg = soft_text }
+      custom_lualine.terminal.c = { bg = transparent_bg, fg = soft_text }
+
+      custom_lualine.replace = {}
+      custom_lualine.replace.a = { bg = color_replace, fg = block_text, gui = "bold" }
+      custom_lualine.replace.b = { bg = transparent_bg, fg = soft_text }
+      custom_lualine.replace.c = { bg = transparent_bg, fg = soft_text }
 
       opts.options = opts.options or {}
       opts.options.theme = custom_lualine
