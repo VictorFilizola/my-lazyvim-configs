@@ -9,27 +9,6 @@ return {
         StatusLine = { bg = "NONE" },
         StatusLineNC = { bg = "NONE" },
 
-        -- -- Change standard text color
-        -- Normal = { fg = "#e8e3df" },
-        --
-        -- -- Force Explorer color
-        -- SnacksExplorerDir = { fg = "#e8e3df" },
-        -- SnacksExplorerFile = { fg = "#e8e3df" },
-        --
-        -- -- Backgrounds and text for Explorer and Terminal
-        -- SnacksExplorerNormal = { bg = "#181616", fg = "#e8e3df" },
-        -- SnacksTerminalNormal = { bg = "#181616", fg = "#e8e3df" },
-        -- TermNormal = { bg = "#181616", fg = "#e8e3df" },
-        -- TermNormalNC = { bg = "#181616", fg = "#e8e3df" },
-        -- NeoTreeNormal = { bg = "#181616", fg = "#e8e3df" },
-        -- NeoTreeNormalNC = { bg = "#181616", fg = "#e8e3df" },
-        --
-        -- -- Floating windows match the hex background
-        -- NormalFloat = { bg = "#181616" },
-        -- FloatBorder = { bg = "#181616", fg = "#504945" }, -- Gruvbox grey border
-        -- LazyNormal = { bg = "#181616" },
-        -- MasonNormal = { bg = "#181616" },
-        --
         -- -- Active bracket line uses Gruvbox Red
         SnacksIndentScope = { fg = "#cc241d" },
         IblScope = { fg = "#cc241d" },

@@ -14,3 +14,6 @@ vim.keymap.set("n", "<C-l>", "<cmd>vertical resize +2<cr>", { desc = "Increase W
 
 vim.keymap.set("t", "<C-Up>", [[<C-\><C-n><C-w>k]], { desc = "Jump from Terminal to Code" })
 vim.keymap.set("t", "<C-Down>", [[<C-\><C-n><C-w>j]], { desc = "Jump into Terminal" })
+
+vim.keymap.set("n", "<S-Left>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
+vim.keymap.set("n", "<S-Right>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
